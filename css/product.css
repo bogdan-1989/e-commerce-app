@@ -48,6 +48,10 @@
     font-size: 30px;
 }
 
+.product-brand:link {color:#ff0000; text-decoration: none;}
+.product-brand:visited {color:#0000ff; text-decoration: none;}
+.product-brand:hover {text-transform: lowercase; text-decoration: none; }
+
 .details .product-short-des{
     font-size: 25px;
     line-height: 30px;
