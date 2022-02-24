@@ -3,7 +3,9 @@ let nav = document.querySelector('.navbar');
 
     nav.innerHTML = ` 
      <div class="nav">
+     <a href="./index.html">
 <img src="img/dark-logo.png" class="brand-logo" alt="">
+</a>
 <div class="nav-items">
     <div class="search">
         <input type="text" class="search-box" placeholder="search brand, product">
@@ -19,6 +21,7 @@ let nav = document.querySelector('.navbar');
  <li class="link-item"><a href="./searchmen.html" class="link">men</a></li>
  <li class="link-item"><a href="./searchkid.html" class="link">kids</a></li>
  <li class="link-item"><a href="./searchaccessories.html" class="link">accesories</a></li>
+ <li class="link-item"><a href="./contact.html" class="link">Contact</a></li>
 </ul> 
      `;
  }
