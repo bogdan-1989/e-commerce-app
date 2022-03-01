@@ -8,8 +8,10 @@ let nav = document.querySelector('.navbar');
 </a>
 <div class="nav-items">
     <div class="search">
-        <input type="text" class="search-box" placeholder="search brand, product">
+        <input class="search-box" placeholder="search brand, product">
+        <a href="./index.html">
         <button class="search-btn">search</button>
+        </a>
     </div> 
     <a href="#"><img src="img/user.png" alt=""></a>
     <a href="#"><img src="img/cart.png" alt=""></a>
